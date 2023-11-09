@@ -17,15 +17,15 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 CHAT = getenv("CHAT","https://t.me/+cscM0Le0wYpjODQ1")
 BOT_NAME = getenv("BOT_NAME","AM")
-LOGS = getenv("LOGS","-1001840241140")
+LOGS = getenv("LOGS","")
 OWNER_USERNAME = getenv("OWNER_USERNAME","AM_YTBOTT")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://AMBOT:AMBOT@ambot.uecutzy.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001840241140"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Shizuka X Music")
 
@@ -45,8 +45,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL",None)
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+cscM0Le0wYpjODQ1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/AMBOTYT")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AM_YTSUPPORT")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
