@@ -1,0 +1,94 @@
+{
+    "name": "Alexa Music",
+    "description": "Deploy Alexa music on railwey make sure to star the projecte.",
+    "logo": "https://telegra.ph/file/ba967503682a55beaedd3.png",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "Alexa",
+    "AMMusic",
+    "AMMusicbot",
+    "pyrogram"
+    ],
+    "stack": "container",
+    "env": {
+      "API_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "12227067",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "b463bedd791aa733ae2297e6520302fe",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "5978355046:AAHznBLqDo8kx_Yf8b-dRnX0PKTcXApOVVw",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "value": "6204761408",
+        "required": true
+      },        
+      "MONGO_DB_URI": {
+        "description": "Mongo DB URL",
+        "value": "mongodb+srv://AMBOT:AMBOT@ambot.uecutzy.mongodb.net/?retryWrites=true&w=majority",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "A Pyrogram Session Get It From  Here @Session_Generator_Robot.",
+        "value": "",
+        "required": true
+      },
+    "CHAT": {
+        "description": "Chat Group Link",
+        "value": "https://t.me/+GskeUWg-EMA4NDk1",
+        "required": false
+      },
+    "BOT_NAME": {
+        "description": "Bot Name",
+        "value": "Shizuka",
+        "required": false
+      },
+    "OWNER_USERNAME": {
+        "description": "Owner Usename",
+        "value": "AM_YTBOTT",
+        "required": false
+      },
+    "START_IMG_URL": {
+        "description": "Start pic",
+        "value": "https://telegra.ph/file/95a2b56f05cf22175999f.jpg",
+        "required": false
+      },
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku account's API key",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Your heroku app name",
+        "value": "",
+        "required": false
+      },
+      "LOG_GROUP_ID": {
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
+        "value": "-1001817662435",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
