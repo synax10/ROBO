@@ -1,12 +1,12 @@
 {
-    "name": "Alexa Music",
-    "description": "Deploy Alexa music on railwey make sure to star the projecte.",
-    "logo": "https://telegra.ph/file/ba967503682a55beaedd3.png",
+    "name": "Sophia Music",
+    "description": "Deploy AM music on railwey make sure to star the projecte.",
+    "logo": "https://graph.org/file/9b5f4df858bbfd5364b95.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "Alexa",
+    "AMBOT",
     "AMMusic",
     "AMMusicbot",
     "pyrogram"
@@ -25,17 +25,17 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "5978355046:AAHznBLqDo8kx_Yf8b-dRnX0PKTcXApOVVw",
+        "value": "",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "6204761408",
+        "value": "6204761408 5360305806",
         "required": true
       },        
       "MONGO_DB_URI": {
         "description": "Mongo DB URL",
-        "value": "mongodb+srv://AMBOT:AMBOT@ambot.uecutzy.mongodb.net/?retryWrites=true&w=majority",
+        "value": "",
         "required": true
       },
       "STRING_SESSION": {
@@ -51,6 +51,21 @@
     "BOT_NAME": {
         "description": "Bot Name",
         "value": "Shizuka",
+        "required": false
+      },
+        "MUSIC_BOT_NAME": {
+        "description": "Bot Name V2",
+        "value": "Shizuka X Music",
+        "required": false
+      },
+    "BOT_ID": {
+        "description": "Bot Id",
+        "value": "",
+        "required": false
+      },
+    "AUTO_LEAVING_ASSISTANT": {
+        "description": "AUTO LEAVING ASSISTANT",
+        "value": "True",
         "required": false
       },
     "OWNER_USERNAME": {
