@@ -26,6 +26,7 @@ class AlexaBot(Client):
         get_me = await self.get_me()
         self.username = get_me.username
         self.id = get_me.id
+        self.name = get_me.first_name + " " + (get_me.last_name or "")
         try:
             await self.send_message(
                 config.LOG_GROUP_ID, "»** {config.MUSIC_BOT_NAME} ʙᴏᴛ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : `{self.id}`\n❄ ɴᴀᴍᴇ : {self.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.username}"
