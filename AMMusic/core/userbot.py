@@ -52,14 +52,17 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("am_ytsupport")
+                await self.one.join_chat("AM_YTSupport")
+                await self.one.join_chat("AMBOTYT")
+                await self.one.join_chat("AM_Unfban")
+                await self.one.join_chat("Logs_Gban")
             except:
                 pass
             assistants.append(1)
             try:
                 await self.one.send_message(
                     config.LOG_GROUP_ID,
-                    "ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ, ɴᴏᴡ ɪᴛ's ᴛɪᴍᴇ ᴛᴏ ᴇɴᴊᴏʏ ᴍᴜsɪᴄ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏᴄʜᴀᴛs.",
+                    "{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : `{self.one.id}`\n❄ ɴᴀᴍᴇ : {self.one.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.one.username}",
                 )
             except:
                 LOGGER(__name__).error(
@@ -79,13 +82,16 @@ class Userbot(Client):
             await self.two.start()
             try:
                 await self.two.join_chat("AM_YTSUPPRT")
+                await self.two.join_chat("AMBOTYT")
+                await self.two.join_chat("AM_Unfban")
+                await self.two.join_chat("Logs_Gban")
             except:
                 pass
             assistants.append(2)
             try:
                 await self.two.send_message(
                     config.LOG_GROUP_ID,
-                    "ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ, ɴᴏᴡ ɪᴛ's ᴛɪᴍᴇ ᴛᴏ ᴇɴᴊᴏʏ ᴍᴜsɪᴄ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏᴄʜᴀᴛs.",
+                    "{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : `{self.two.id}`\n❄ ɴᴀᴍᴇ : {self.two.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.two.username}",
                 )
             except:
                 LOGGER(__name__).error(
@@ -105,6 +111,9 @@ class Userbot(Client):
             await self.three.start()
             try:
                 await self.three.join_chat("AM_YTSUPPRT")
+                await self.three.join_chat("AMBOTYT")
+                await self.three.join_chat("AM_Unfban")
+                await self.three.join_chat("Logs_Gban")
             except:
                 pass
             assistants.append(3)
@@ -131,6 +140,9 @@ class Userbot(Client):
             await self.four.start()
             try:
                 await self.four.join_chat("AM_YTSUPPRT")
+                await self.four.join_chat("AMBOTYT")
+                await self.four.join_chat("AM_Unfban")
+                await self.four.join_chat("Logs_Gban")
             except:
                 pass
             assistants.append(4)
@@ -157,6 +169,9 @@ class Userbot(Client):
             await self.five.start()
             try:
                 await self.five.join_chat("AM_YTSUPPRT")
+                await self.five.join_chat("AMBOTYT")
+                await self.five.join_chat("AM_Unfban")
+                await self.five.join_chat("Logs_Gban")
             except:
                 pass
             assistants.append(5)
