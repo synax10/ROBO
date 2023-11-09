@@ -59,6 +59,12 @@ class Userbot(Client):
             except:
                 pass
             assistants.append(1)
+            get_me = await self.one.get_me()
+            self.one.username = get_me.username
+            self.one.id = get_me.id
+            self.one.mention = get_me.mention
+            assistantids.append(get_me.id)
+            self.one.name = get_me.first_name + (get_me.last_name or "")
             try:
                 await self.one.send_message(
                     config.LOG_GROUP_ID,
@@ -88,6 +94,12 @@ class Userbot(Client):
             except:
                 pass
             assistants.append(2)
+            get_me = await self.two.get_me()
+            self.two.username = get_me.username
+            self.two.id = get_me.id
+            self.two.mention = get_me.mention
+            assistantids.append(get_me.id)
+            self.two.name = get_me.first_name + (get_me.last_name or "")
             try:
                 await self.two.send_message(
                     config.LOG_GROUP_ID,
