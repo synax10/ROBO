@@ -1,12 +1,6 @@
 #
-# Copyright (C) 2021-2022 by AM_YTSUPPRT@Github, < https://github.com/AM_YTSUPPORT >.
-# A Powerful Music Bot Property Of AMBOT
+# Copyright (C) 2021-2022 by AM_YTSUPPRT@Github, < https://github.com/AbhiModszYT >.
 
-# Kanged By © @Dr_Asad_Ali
-# Rocks © @AM_YTSUPPORT
-# Owner Asad Ali
-# Harshit Sharma
-# All rights reserved. © AMBOT
 
 
 import asyncio
