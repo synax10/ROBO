@@ -39,12 +39,12 @@
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram Session Get It From  Here @Session_Generator_Robot.",
+        "description": "A Pyrogram Session Get It From  Here @Sessoin_String_gen_BOT.",
         "value": "",
         "required": true
       },
     "CHAT": {
-        "description": "Chat Group Link",
+        "description": "Add Your Chat Group Link",
         "value": "https://t.me/+GskeUWg-EMA4NDk1",
         "required": false
       },
