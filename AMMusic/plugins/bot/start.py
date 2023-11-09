@@ -287,7 +287,7 @@ async def start(client: Client, message: Message):
     )
 
 
-@app.on_message(commandpro(["/verify", "ambotverification"]) & ~filters.edited)
+@app.on_message(commandpro(["/verify", "ambotverification","ambot","bot","Music","vc","song""songs"]) & ~filters.edited)
 async def start(client: Client, message: Message):
     if await is_served_user(message.from_user.id):
         await message.reply_text(
@@ -299,6 +299,6 @@ async def start(client: Client, message: Message):
         photo=f"https://telegra.ph/file/19144b92a53c311070810.jpg",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ **ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ** 🎉\n✪ ɴᴏᴡ ʏᴏᴜ ᴀʀᴇ ᴀᴍʙᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴍᴇᴍʙᴇʀ ɢᴏ ʙᴀᴄᴋ ᴀɴᴅ ᴇɴᴊᴏʏ ᴏᴜʀ sᴇʀᴠɪᴄᴇ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜsɪᴄ 🌼 ..\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton(" SUPPORT 💮", url=f"{CHAT}")]]
+            [[InlineKeyboardButton("ᴄʜᴀᴛ 💮", url=f"{CHAT}")]]
         ),
     )
