@@ -12,7 +12,7 @@ from youtubesearchpython.__future__ import VideosSearch
 
 import config
 from config import BANNED_USERS
-from config.config import OWNER_ID, CHAT
+from config.config import OWNER_ID, CHAT, START_IMG_URL
 from strings import get_command, get_string
 from AMMusic import Telegram, YouTube, app
 from AMMusic.misc import SUDOERS
@@ -279,7 +279,7 @@ async def welcome(client, message: Message):
 @app.on_message(commandpro(["/alive", "AMBOT"]) & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/19144b92a53c311070810.jpg",
+        photo=f"{START_IMG_URL}",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ʜᴇʟʟᴏ, ᴀᴍʙᴏᴛ ɪs ᴡᴏʀᴋɪɴɢ ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n✪ ᴛʜᴀɴᴋs ᴛᴏ ʏᴜᴋᴋɪ ᴛᴇᴀᴍ 🌼 ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴜᴘᴅᴀᴛᴇꜱ    : [ᴀᴍʙᴏᴛ](https://t.me/AMBOTYT)\n┣★ ꜱᴜᴘᴘᴏʀᴛ › : [ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/AM_YTSUPPORT)\n┣★ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ › : [ ʀᴇᴘᴏ](https://github.com/AbhiModszYT/AMMusicOp)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/AM_YTBOTT) ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ sᴛᴀʀ ᴏᴜʀ ᴘʀᴏᴊᴇᴄᴛ ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton(" ᴄʜᴀᴛ 💮", url=f"{CHAT}")]]
@@ -296,7 +296,7 @@ async def start(client: Client, message: Message):
         return
     await add_served_user(message.from_user.id)
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/19144b92a53c311070810.jpg",
+        photo=f"{START_IMG_URL}",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ **ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ** 🎉\n✪ ɴᴏᴡ ʏᴏᴜ ᴀʀᴇ ᴀᴍʙᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴍᴇᴍʙᴇʀ ɢᴏ ʙᴀᴄᴋ ᴀɴᴅ ᴇɴᴊᴏʏ ᴏᴜʀ sᴇʀᴠɪᴄᴇ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜsɪᴄ 🌼 ..\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("ᴄʜᴀᴛ 💮", url=f"{CHAT}")]]
