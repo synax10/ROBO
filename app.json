@@ -78,6 +78,21 @@
         "value": "https://telegra.ph/file/95a2b56f05cf22175999f.jpg",
         "required": false
       },
+    "GLOBAL_IMG_URL": {
+        "description": "gstas pic",
+        "value": "https://telegra.ph/file/95a2b56f05cf22175999f.jpg",
+        "required": false
+      },
+        "STATS_IMG_URL": {
+        "description": "stats pic",
+        "value": "https://telegra.ph/file/95a2b56f05cf22175999f.jpg",
+        "required": false
+      },
+    "PING_IMG_URL": {
+        "description": "ping pic",
+        "value": "https://telegra.ph/file/95a2b56f05cf22175999f.jpg",
+        "required": false
+      },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
         "value": "",
