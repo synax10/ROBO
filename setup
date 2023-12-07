@@ -76,7 +76,7 @@ node(){
 repo(){
 	# Get git repo if the installer is runned standalone
 	[[ ! "AMMusic" == $(basename -s .git `git config --get remote.origin.url`) ]] &&
-	git clone https://github.com/AbhiModszYT/AMMusicOp &&  cd AMMusicOp
+	git clone https://github.com/synax10/ROBO &&  cd ROBO
 }
 
 
