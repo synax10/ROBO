@@ -174,13 +174,13 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 </h3>
 
 <p align="center">
-<a href="https://github.com/synax10"> <img src="https://img.shields.io/badge/AbhiModszYT-black?style=for-the-badge&logo=github" alt="synax10" /> </a>
+<a href="https://github.com/synax10"> <img src="https://img.shields.io/badge/synax10-black?style=for-the-badge&logo=github" alt="synax10" /> </a>
 </p>
 
 - <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ ʏᴜᴋᴋɪ](https://github.com/TeamYukki) ғᴏʀ [ʏᴜᴋᴋɪ ᴍᴜsɪᴄ ʙᴏᴛ](https://github.com/TeamYukki/YukkiMusicBot)_ </b>
 
 <h3 align="center">──「 ʀᴇᴘᴏ sᴛᴀᴛs 」──</h3>
-<a href="https://github.com/SYNAX10/ROBO"><img src="https://github-readme-stats.vercel.app/api/pin/?username=AbhiModszYT&repo=AMMusicOp&theme=chartreuse-dark"></a>
+<a href="https://github.com/SYNAX10/ROBO"><img src="https://github-readme-stats.vercel.app/api/pin/?username=synax10&repo=ROBO&theme=chartreuse-dark"></a>
 
 
 
