@@ -1,17 +1,17 @@
 <h2 align="center">
-    ──「 AMMusic 」──
+    ──「 ⚡️𝐒 𝐘 𝐍 𝐀 𝐗⚡️ 」──
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/f20237d3a028a343d595a.jpg">
+  <img src="https://telegra.ph/file/a32783a91999e9774054a.jpg">
 </p>
 
 <p align="center">
-<a href="https://github.com/AbhiModszYT/AMMusicOp/stargazers"><img src="https://img.shields.io/github/stars/AbhiModszYT/AMMusicOp?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/AbhiModszYT/AMMusicOp/network/members"> <img src="https://img.shields.io/github/forks/AbhiModszYT/AMMusicOp?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/AbhiModszYT/AMMusicOp/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/synax10/ROBO/stargazers"><img src="https://img.shields.io/github/stars/synax10/ROBO?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/synax10/ROBO/network/members"> <img src="https://img.shields.io/github/forks/synax10/ROBO?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/synax10/ROBO/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://github.com/AbhiModszYT/AMMusicOp/commits/AbhiModszYT"> <img src="https://img.shields.io/github/last-commit/AbhiModszYT/AMMusicOp?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+<a href="https://github.com/synax10/ROBO/commits/synax10"> <img src="https://img.shields.io/github/last-commit/synax10/ROBO?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 ## Features Of AMMusic And Commands ❤️
@@ -111,13 +111,13 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/AbhiModszYT/AMMusicOp"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/synax10/ROBO"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
-- Get your [Necessary Variables](https://github.com/AbhiModszYT/AMMusicOp/blob/main/sample.env)
+- Get your [Necessary Variables](https://github.com/synax10/ROBO/blob/main/sample.env)
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
 - Install Ffmpeg by :
@@ -150,11 +150,11 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 </h3>
 
 <p align="center">
-<a href="https://t.me/AM_YTSupport"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/synax10"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <p align="center">
-<a href="https://telegram.me/AbhiModszYT_Return"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/synax10"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 # Owner And Credit
@@ -166,7 +166,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
    ᴄʀᴇᴅɪᴛs 
 ## sᴘᴇᴄɪᴀʟ ᴄʀᴇᴅɪᴛ
 
-- [AbhiModszYT](https://telegram.dog/AM_YTBOTT)
+- [SYNAX](https://telegram.dog/synax10)
 - [ʏᴜᴋᴋɪ](https://github.com/NotReallyShikhar)
 - [ᴀɴᴏɴʏᴍᴏᴜs](https://github.com/TheAnonymous2005)
 </details>
@@ -174,13 +174,13 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 </h3>
 
 <p align="center">
-<a href="https://github.com/AbhiModszYT"> <img src="https://img.shields.io/badge/AbhiModszYT-black?style=for-the-badge&logo=github" alt="AbhiModszYT" /> </a>
+<a href="https://github.com/synax10"> <img src="https://img.shields.io/badge/AbhiModszYT-black?style=for-the-badge&logo=github" alt="synax10" /> </a>
 </p>
 
 - <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ ʏᴜᴋᴋɪ](https://github.com/TeamYukki) ғᴏʀ [ʏᴜᴋᴋɪ ᴍᴜsɪᴄ ʙᴏᴛ](https://github.com/TeamYukki/YukkiMusicBot)_ </b>
 
 <h3 align="center">──「 ʀᴇᴘᴏ sᴛᴀᴛs 」──</h3>
-<a href="https://github.com/AbhiModszYT/AMMusicOp"><img src="https://github-readme-stats.vercel.app/api/pin/?username=AbhiModszYT&repo=AMMusicOp&theme=chartreuse-dark"></a>
+<a href="https://github.com/SYNAX10/ROBO"><img src="https://github-readme-stats.vercel.app/api/pin/?username=AbhiModszYT&repo=AMMusicOp&theme=chartreuse-dark"></a>
 
 
 
