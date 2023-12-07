@@ -1,6 +1,6 @@
 """"
 AMBOT is a Telegram Audio and video streaming bot 
-Copyright (c) 2022 -present AM <https://github.com/AbhiModszYT>
+Copyright (c) 2022 -present AM <https://github.com/synax10>
 
 This program is free software: you can redistribute it and can modify
 as you want.
