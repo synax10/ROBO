@@ -1,7 +1,7 @@
 {
-    "name": "Sophia Music",
-    "description": "Deploy AM music on railwey make sure to star the projecte.",
-    "logo": "https://graph.org/file/9b5f4df858bbfd5364b95.jpg",
+    "name": "Synax Music",
+    "description": "Deploy SYNAX music on railwey make sure to star the projecte.",
+    "logo": "https://telegra.ph/file/a32783a91999e9774054a.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -45,17 +45,17 @@
       },
     "CHAT": {
         "description": "Add Your Chat Group Link",
-        "value": "https://t.me/+GskeUWg-EMA4NDk1",
+        "value": "https://t.me/CHATMASTI",
         "required": false
       },
     "BOT_NAME": {
         "description": "Bot Name",
-        "value": "Shizuka",
+        "value": "Synax",
         "required": false
       },
         "MUSIC_BOT_NAME": {
         "description": "Bot Name V2",
-        "value": "Shizuka X Music",
+        "value": "Synax X Music",
         "required": false
       },
     "BOT_ID": {
@@ -70,27 +70,27 @@
       },
     "OWNER_USERNAME": {
         "description": "Owner Usename",
-        "value": "AM_YTBOTT",
+        "value": "",
         "required": false
       },
     "START_IMG_URL": {
         "description": "Start pic",
-        "value": "https://telegra.ph/file/95a2b56f05cf22175999f.jpg",
+        "value": "https://telegra.ph/file/a32783a91999e9774054a.jpg",
         "required": false
       },
     "GLOBAL_IMG_URL": {
         "description": "gstas pic",
-        "value": "https://telegra.ph/file/95a2b56f05cf22175999f.jpg",
+        "value": "https://telegra.ph/file/a32783a91999e9774054a.jpg",
         "required": false
       },
         "STATS_IMG_URL": {
         "description": "stats pic",
-        "value": "https://telegra.ph/file/95a2b56f05cf22175999f.jpg",
+        "value": "https://telegra.ph/file/a32783a91999e9774054a.jpg",
         "required": false
       },
     "PING_IMG_URL": {
         "description": "ping pic",
-        "value": "https://telegra.ph/file/95a2b56f05cf22175999f.jpg",
+        "value": "https://telegra.ph/file/a32783a91999e9774054a.jpg",
         "required": false
       },
       "HEROKU_API_KEY": {
@@ -105,7 +105,7 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-        "value": "-1001817662435",
+        "value": "",
         "required": true
       }
     },
